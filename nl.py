@@ -8,7 +8,6 @@ s.listen(1)
 conn, address = s.accept()
 print("Connection has been established | " + "IP " + address[0] + " | Port " + str(address[1]))
 
-<<<<<<< HEAD
 while Try:
     data = conn.recv(1024)
     if not data: break
